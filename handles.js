@@ -15,7 +15,7 @@ module.exports ={
             res.write('Hello ' + params['name'] + '!');
         }
         else{
-            res.write('Hello anonymous');
+            res.write('Hello anonymous !');
         }
         res.end();
     }
